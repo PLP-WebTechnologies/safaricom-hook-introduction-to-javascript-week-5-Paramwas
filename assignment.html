@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Assignment</title>
+</head>
+<body>
+
+ 
+  <h1>JavaScript Assignment</h1>
+  <p>Learning JavaScript is fun!</p>
+  <div id="dynamic-content"></div>
+
+  
+  <h2>Calculator</h2>
+  <form id="calculator-form">
+    <label for="num1">Enter the first number:</label>
+    <input type="number" id="num1" required><br><br>
+
+    <label for="num2">Enter the second number:</label>
+    <input type="number" id="num2" required><br><br>
+
+    <label for="operation">Choose an operation:</label>
+    <select id="operation" required>
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">*</option>
+      <option value="/">/</option>
+    </select><br><br>
+
+    <button type="button" onclick="calculate()">Calculate</button>
+  </form>
+
+  <h3>Result: <span id="result">---</span></h3>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
